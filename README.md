@@ -1,2 +1,2 @@
-# fondamenti
-fondamenti di informatica
+# fondamenti di informatica
+ingegneria gestionale
