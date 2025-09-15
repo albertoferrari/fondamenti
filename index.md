@@ -1,4 +1,4 @@
-### Analisi, utilizzo e protezione dei dati digitali
+### Fondamenti di Informatica
 - [I dati](http://albertoferrari.github.io/analisi_dati/lezioni/DD01-dati.pdf)
 - [Big Data](http://albertoferrari.github.io/analisi_dati/lezioni/DD02-big_data.pdf)
 - [Regolamento Protezione Dati](http://albertoferrari.github.io/analisi_dati/lezioni/DD03-regolamento_dati.pdf)
