@@ -3,4 +3,4 @@
 - [Problem Solving](http://albertoferrari.github.io/fondamenti/lezioni/FI01-Problem_solving.pdf)
 
 ### Fondamenti di Programmazione
-- [Introduzione alla programmazione](http://albertoferrari.github.io/fondamenti/lezioni/FP00-Python.pdf)
+- [Introduzione alla programmazione](http://albertoferrari.github.io/fondamenti/lezioni/FP01-Python.pdf)
