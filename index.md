@@ -10,3 +10,4 @@
 - [Introduzione alla programmazione](http://albertoferrari.github.io/fondamenti/lezioni/FP01-Python.pdf)
 - [Iterazioni](http://albertoferrari.github.io/fondamenti/lezioni/FP02-iterazioni.pdf)
 - [Funzioni](http://albertoferrari.github.io/fondamenti/lezioni/FP03-funzioni.pdf)
+- [Oggetti](http://albertoferrari.github.io/fondamenti/lezioni/FP04-oggetti.pdf)
