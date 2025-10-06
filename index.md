@@ -5,7 +5,8 @@
 - [Logica delle proposizioni](http://albertoferrari.github.io/fondamenti/lezioni/FIT02-Logica_proposizioni.pdf)
 - [Logica dei predicati](http://albertoferrari.github.io/fondamenti/lezioni/FIT03-Logica_predicati.pdf)
 - [Sistema binario](http://albertoferrari.github.io/fondamenti/lezioni/FIT04-sistema_binario.pdf)
-
+- [Media digitali](http://albertoferrari.github.io/fondamenti/lezioni/FIT05-media_digitali.pdf)
+  
 ### Fondamenti di Programmazione
 - [Introduzione alla programmazione](http://albertoferrari.github.io/fondamenti/lezioni/FP01-Python.pdf)
 - [Iterazioni](http://albertoferrari.github.io/fondamenti/lezioni/FP02-iterazioni.pdf)
