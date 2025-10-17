@@ -1,2 +1,3 @@
 ### Esempi
-- [linearità](http://albertoferrari.github.io/fondamenti/materiale/Esempio_linearità.pdf)
+- [linearità](http://albertoferrari.github.io/fondamenti/materiale/esempioLinearita.pdf)
+- [codice linearità](http://albertoferrari.github.io/fondamenti/materiale/n_quadrati.py)
