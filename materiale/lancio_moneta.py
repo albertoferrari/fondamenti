@@ -1,0 +1,26 @@
+'''
+lancio 100 volte moneta
+'''
+from random import choice
+
+N = 100              # numero di lanci
+FACCIA = ('t','c')   # (t)esta (c)roce
+n_vittorie = 0       # numero di vittorie
+
+scelta = input('testa(t) o croce(c): ')
+while scelta not in FACCIA:
+    print('input errato',end=' ->')
+    scelta = input('testa(t) o croce(c): ')
+
+for i in range(N):
+    if choice(FACCIA) == scelta:
+        n_vittorie+=1               # identico a n_vittorie = n_vittorie + 1
+
+if n_vittorie > N/2:
+    print('hai vinto')
+elif n_vittorie == N/2:
+    print('hai pareggiato')
+else:
+    print('hai perso')
+    
+print('hai indovinato',n_vittorie,' volte su ',N)
