@@ -13,12 +13,15 @@ from random import randrange
 g2d.init_canvas((500,500))
 
 '''
+# primo quadrato
 g2d.set_color((randrange(255),randrange(255),randrange(255)))
 g2d.draw_rect((0,0),(500,500))
 
+# ultimo quadrato
 g2d.set_color((randrange(255),randrange(255),randrange(255)))
 g2d.draw_rect((245,245),(10,10))
-
+'''
+# n quadrati
 n = int(g2d.prompt('n: '))
 
 for i in range(n):
@@ -28,5 +31,5 @@ for i in range(n):
     dim = -490 / max(n-1,1) * i + 500
     
     g2d.draw_rect((pos, pos), (dim,dim))
-'''
+
 g2d.main_loop()
