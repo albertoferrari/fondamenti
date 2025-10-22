@@ -14,6 +14,7 @@
 - [Iterazioni](http://albertoferrari.github.io/fondamenti/lezioni/FP02-iterazioni.pdf)
 - [Funzioni](http://albertoferrari.github.io/fondamenti/lezioni/FP03-funzioni.pdf)
 - [Oggetti](http://albertoferrari.github.io/fondamenti/lezioni/FP04-oggetti.pdf)
-
+- [Sequenze](http://albertoferrari.github.io/fondamenti/lezioni/FP05-sequenze.pdf)
+  
 ### Materiale
 - [esempi e codice](http://albertoferrari.github.io/fondamenti/materiale)
