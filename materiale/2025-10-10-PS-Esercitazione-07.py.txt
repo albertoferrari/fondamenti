@@ -1,0 +1,16 @@
+'''
+Si vuole verificare se una data (giorno e mese) dell’anno 2025  è corretta.
+Si ricevono in input due valori interi g e m che rappresentano il giorno
+e il mese e si visualizza True se la data è corretta e False in caso contrario. 
+'''
+g = int(input('giorno: '))
+m = int(input('mese: '))
+
+if not (1 <= g <= 31) or not (1 <= m <= 12):
+    print(False)
+elif m == 2 and g > 28:
+    print(False)
+elif m in (11,4,6,9) and g > 30:
+    print(False)
+else:
+    print(True)

@@ -1,0 +1,7 @@
+'''
+Dato il perimetro di un quadrato, fornire come risultato il valore del lato e dell’area
+'''
+perimetro = int(input('perimetro: '))
+lato = perimetro / 4
+area = lato * lato
+print('lato',lato,'area',area)

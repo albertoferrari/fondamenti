@@ -1,0 +1,23 @@
+'''
+Dati tre valori che rappresentano le misure dei lati di un triangolo
+determinare se si tratta di un triangolo scaleno, isoscele o equilatero 
+[facoltativo: controllare se si tratta effettivamente di un triangolo
+(https://it.wikipedia.org/wiki/Disuguaglianza_triangolare)]
+'''
+l1 = float(input('lato 1: '))
+l2 = float(input('lato 2: '))
+l3 = float(input('lato 3: '))
+
+# controllo se si tratta di un triangolo
+triangolo = True
+if l1 >= l2+l3 or l2 >= l1+l3 or l3 >= l1+l2:
+    triangolo = False
+
+if not triangolo:
+    print('non si tratta di un triangolo')
+elif l1 == l2 and l2 == l3:
+    print('triangolo equilatero')
+elif l1 == l2 or l1 == l3 or l2 == l3:
+    print('triangolo isoscele')
+else:
+    print('triangolo scaleno')

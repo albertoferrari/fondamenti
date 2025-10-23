@@ -1,0 +1,12 @@
+'''
+Sapendo che in un parcheggio ogni ora di sosta costa € 1.2
+per le prime 3 ore e € 2 per le successive,
+scrivere un programma che richiede il numero di ore
+di parcheggio e visualizza il totale da pagare
+'''
+ore = int(input('ore di parcheggio: '))
+if ore <= 3:
+    tot = ore * 1.2
+else:
+    tot = 3 * 1.2 + (ore-3) * 2
+print('totale da pagare',tot)

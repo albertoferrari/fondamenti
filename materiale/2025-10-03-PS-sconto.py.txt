@@ -1,0 +1,20 @@
+'''
+Per l'acquisto di un prodotto viene applicato lo sconto del 10%
+se la quantità acquistata è superiore a 2 unità e del 15% se superiore a 5 unità.
+
+Richiedere il costo del prodotto e il numero di unità acquistate.
+Visualizzare l'importo totale, lo sconto e l'importo scontato.
+'''
+costo = float(input('costo del prodotto: '))
+quantità = int(input('quantità acquistata: '))
+imp_totale = quantità * costo
+if quantità > 5:
+    sconto = imp_totale * 0.15
+elif quantità > 2:
+    sconto = imp_totale * 0.1
+else:
+    sconto = 0
+imp_scontato = imp_totale - sconto
+print('importo totale',imp_totale)
+print('sconto',sconto)
+print('importo scontato',imp_scontato)

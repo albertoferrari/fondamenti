@@ -1,0 +1,20 @@
+'''
+2025-10-03-PS-Draw
+Prendendo come esempio il programma “c02_draw”:
+Disegnare un rettangolo largo come il canvas e alto 200 pixel 
+Colore magenta
+Centrato rispetto all'altezza del canvas 
+Inserire all'interno del rettangolo una scritta di colore nero
+la scritta è formata dal vostro nome e cognome
+'''
+import g2d
+
+g2d.init_canvas((800, 600))                  # larghezza, altezza
+
+g2d.set_color((255,0,255))                   # magenta
+g2d.draw_rect((0,200),(800,200))             # rettangolo posizione (0,200) larg 800 alt 200
+
+g2d.set_color((0,0,0))                       # nero
+g2d.draw_text('nome cognome',(400,300),30)   # testo posizione (centrato) e dimensione
+
+g2d.main_loop()                              # ciclo di attesa

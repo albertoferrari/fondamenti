@@ -1,0 +1,28 @@
+'''
+Disegnare in un canvas di dimensione 500x500 una cornice di colore nero
+ formata da 4 linee in modo da lasciare un bordo di 50 pixel 
+ sia sui lati sia in alto che in basso
+Disegnare un cerchio di colore casuale e raggio 100 al centro del canvas
+'''
+import g2d
+from random import randrange
+
+g2d.init_canvas((500, 500))
+
+g2d.set_color((0,0,0))
+g2d.draw_line((50,50),(450,50))
+g2d.draw_line((450,50),(450,450))
+g2d.draw_line((450,450),(50,450))
+g2d.draw_line((50,450),(50,50))
+
+r = randrange(256)
+g = randrange(256)
+b = randrange(256)
+
+color = (r,g,b)
+
+g2d.set_color(color)
+g2d.draw_circle((250, 250), 100)
+
+
+g2d.main_loop()
