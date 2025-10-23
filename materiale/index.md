@@ -3,7 +3,7 @@
 - [codice linearità](http://albertoferrari.github.io/fondamenti/materiale/n_quadrati.py.txt){:target="_blank"}
 - [numeri perfetti](http://albertoferrari.github.io/fondamenti/materiale/numeri_perfetti.py.txt){:target="_blank"}
 
-### Esercizi es esercitazioni
+### Esercizi ed esercitazioni
 - [2025-10-03-PS-Draw](http://albertoferrari.github.io/fondamenti/materiale/2025-10-03-PS-Draw.py.txt){:target="_blank"}
 - [2025-10-03-PS-sconto](http://albertoferrari.github.io/fondamenti/materiale/2025-10-03-PS-sconto.py.txt){:target="_blank"}
 - [2025-10-10-PS-Esercitazione-01](http://albertoferrari.github.io/fondamenti/materiale/2025-10-10-PS-Esercitazione-01.py.txt){:target="_blank"}
