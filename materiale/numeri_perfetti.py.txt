@@ -1,0 +1,61 @@
+'''
+Un numero perfetto è un numero naturale uguale alla somma dei suoi divisori
+positivi escluso se stesso.
+'''
+def stampa_divisori(n: int):
+    '''
+    stampa tutti i divisori di n
+    '''
+    print(f'divisori di {n}:',end=' ')
+    for d in range(1,n+1):
+        if n % d == 0:
+            print(d,end=' ')
+    print()              # a capo
+    
+def somma_divisori(n: int) ->int:
+    '''
+    restituisce la somma dei divisori di n
+    '''
+    somma = 0            # inizializzazione (somma parziale)
+    for d in range(1,n+1):
+        if n % d == 0:
+            somma += d   # aggiunto divisore alla somma
+    return somma
+
+def perfetto(n: int) -> bool:
+    '''
+    return True se n è un numero perfetto
+    (uguale alla somma dei suoi divisori interi escluso se stesso)
+    '''
+    somma = 0
+    for d in range(1,n):
+        if n % d == 0:
+            somma += d      # sommo il divisore trovato
+    # return somma == n ... o in alternativa ... 
+    if somma == n:
+        return True         # numero perfetto
+    else:
+        return False
+    
+def main():
+    x = int(input('numero naturale :'))
+    while x < 0:
+        x = int(input('numero naturale :'))
+    
+    stampa_divisori(x)
+    
+    s = somma_divisori(x)
+    print(f'la somma dei divisori di {x} è {s}')
+    
+    if perfetto(x):
+        print(f'{x} è un numero perfetto')
+    else:
+        print(f'{x} non è un numero perfetto')
+    
+    print("numeri perfetti nell'intervallo [1,1000]", end=' ')
+    for v in range(1,1001):
+        if perfetto(v):
+            print(v,end= ' ')
+    print()
+
+main()
