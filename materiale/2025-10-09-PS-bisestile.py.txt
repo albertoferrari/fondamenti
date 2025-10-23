@@ -1,0 +1,28 @@
+'''
+Qualsiasi anno divisibile per 4 è un anno bisestile
+Nota: la regola di cui sopra non si applica agli anni del secolo.
+Secoli come il 1900 e il 2000 hanno un giorno bisestile solo se sono divisibili per 400.
+
+PROBLEMA
+
+Scrivere un programma che richiese in input un anno.
+
+Se l'anno è inferiore al 1582 (anno di introduzione del calendario Gregoriano)
+il programma restituisce come risultato 'anno non valido'
+altrimenti restituisce 'anno bisestile' o 'anno non bisestile'.
+'''
+
+anno = int(input('anno: '))
+
+if anno < 1582:
+    print('anno non valido')
+elif anno % 400 == 0:
+    print('anno bisestile')
+elif anno % 100 == 0:
+    print('non bisestile')
+elif anno % 4 == 0:
+    print('anno bisestile')
+else:
+    print('anno non bisestile')
+    
+                
