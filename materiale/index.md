@@ -14,3 +14,4 @@
 - [2025-10-10-PS-Esercitazione-06](http://albertoferrari.github.io/fondamenti/materiale/2025-10-10-PS-Esercitazione-06.py.txt){:target="_blank"}
 - [2025-10-10-PS-Esercitazione-07](http://albertoferrari.github.io/fondamenti/materiale/2025-10-10-PS-Esercitazione-07.py.txt){:target="_blank"}
 - [2025-10-16-PS-moneta](http://albertoferrari.github.io/fondamenti/materiale/2025-10-16-PS-moneta.py.txt){:target="_blank"}
+- [2025-10-17-PS-divisori](http://albertoferrari.github.io/fondamenti/materiale/2025-10-17-PS-divisori.py.txt){:target="_blank"}
