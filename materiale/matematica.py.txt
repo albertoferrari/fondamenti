@@ -1,0 +1,20 @@
+# esempio di libreria
+def somma(x: float,y: float) ->float:
+    ''' restituisce la somma dei due parametri '''
+    return x+y
+
+def prodotto(x: float,y: float) -> float:
+    ''' restituisce il prodotto dei due parametri '''
+    return x*y
+
+def reciproco(x: float) -> float:
+    ''' restituisce il reciproco del parametro '''
+    return 1/x
+
+def main():
+    print(somma(2,8))
+    print(prodotto(3,7))
+    print(reciproco(12))
+    
+if __name__ == "__main__":  # file executed directly, or imported?
+    main()  # `main` not called, if file imported as module

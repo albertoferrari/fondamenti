@@ -1,0 +1,10 @@
+# esempio di utilizzo di libreria di funzioni
+import matematica
+
+help(matematica)   # documentazione della libreria importata 
+
+a = 5
+b = 4
+print(matematica.somma(a,b))
+print(matematica.prodotto(a,b))
+print(matematica.reciproco(a))
