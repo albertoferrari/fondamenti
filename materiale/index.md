@@ -3,7 +3,7 @@
 - [codice linearità](http://albertoferrari.github.io/fondamenti/materiale/n_quadrati.py.txt){:target="_blank"}
 - [libreria](http://albertoferrari.github.io/fondamenti/materiale/matematica.py.txt){:target="_blank"}
 - [utilizzo libreria](http://albertoferrari.github.io/fondamenti/materiale/prova_libreria.py.txt){:target="_blank"}
-- [to complemento a 2](http://albertoferrari.github.io/fondamenti/materiale/complemento_a 2_to.pdf){:target="_blank"}
+- [to complemento a 2](http://albertoferrari.github.io/fondamenti/materiale/complemento_a_2_to.pdf){:target="_blank"}
 - [from complemento a 2](http://albertoferrari.github.io/fondamenti/materiale/complemento_a_2_from.pdf){:target="_blank"}
 
 ### Esercizi ed esercitazioni
