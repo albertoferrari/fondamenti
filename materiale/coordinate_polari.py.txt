@@ -1,0 +1,10 @@
+import math
+
+# da coordinate cartesiane a coordinate polari
+x , y = 3 , 4               # punto(3,4)
+r = (x**2 + y**2)**0.5      # raggio r = math.hypot(x,y)      
+theta = math.atan2(y,x)     # angolo in radianti
+gradi = math.degrees(theta) # angolo in gradi
+
+print(f'coordinate cartesiane ({x},{y}) = coordinate polari {r} {theta} radianti')
+print(f'coordinate cartesiane ({x},{y}) = coordinate polari {r} {gradi} gradi')
