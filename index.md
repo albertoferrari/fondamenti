@@ -7,7 +7,7 @@
 - [Sistema binario](http://albertoferrari.github.io/fondamenti/lezioni/FIT04-sistema_binario.pdf)
 - [Media digitali](http://albertoferrari.github.io/fondamenti/lezioni/FIT05-media_digitali.pdf)
 - [Automi](http://albertoferrari.github.io/fondamenti/lezioni/FIT06-automi.pdf)
-
+- [Complessità computazionale](http://albertoferrari.github.io/fondamenti/lezioni/FIT07-complessita.pdf)
   
 ### Fondamenti di Programmazione
 - [Introduzione alla programmazione](http://albertoferrari.github.io/fondamenti/lezioni/FP01-Python.pdf)
