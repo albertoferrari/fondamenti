@@ -22,4 +22,4 @@
 - [2025-10-17-PS-divisori](http://albertoferrari.github.io/fondamenti/materiale/2025-10-17-PS-divisori.py.txt){:target="_blank"}
 - [2025-10-09-PS-bisestile](http://albertoferrari.github.io/fondamenti/materiale/2025-10-09-PS-bisestile.py.txt){:target="_blank"}
 - [2025-10-23-PS-funzioni(perfetti)](http://albertoferrari.github.io/fondamenti/materiale/2025-10-23-PS-funzioni.py.txt){:target="_blank"}
-- [2025-11-13-PS-esercitazione-0](http://albertoferrari.github.io/fondamenti/materiale/3-0-divisori.py){:target="_blank"}
+- [2025-11-13-PS-esercitazione-0](http://albertoferrari.github.io/fondamenti/materiale/3-0-divisori.py.txt){:target="_blank"}
