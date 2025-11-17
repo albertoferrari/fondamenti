@@ -1,0 +1,59 @@
+'''
+- Modificare la classe Ball presente negli esempi
+- Parte al centro del canvas, in direzione casuale
+    - Alto, basso, sinistra, o destra
+    - Costruttore senza parametri (oltre a self)
+- Arrivata al bordo, riparte dal centro
+    - Nuova direzione casuale, tra le stesse quattro
+- Nella funzione main
+    - Chiamare 100 volte `move`
+    - Stampare man mano la posizione
+'''
+from random import choice
+import g2d
+
+ARENA_W, ARENA_H, BALL_W, BALL_H = 480, 360, 20, 20
+
+class Ball:
+    def __init__(self):
+        self.set_position_direction()
+
+    def set_position_direction(self):
+        self._x = ARENA_W // 2
+        self._y = ARENA_H // 2
+        direction = ((0,-4),(0,4),(-4,0),(4,0)) # alto, basso, sinistra, destra
+        self._dx, self._dy = choice(direction)
+
+    def move(self):
+        if not 0 <= self._x + self._dx <= ARENA_W - BALL_W:
+            self.set_position_direction()
+        elif not 0 <= self._y + self._dy <= ARENA_H - BALL_H:
+            self.set_position_direction()
+        else:
+            self._x += self._dx
+            self._y += self._dy
+
+    def pos(self) -> (int, int):
+        return self._x, self._y
+
+
+def console_run():
+    b = Ball()
+    for _ in range(100):
+        b.move()
+        print("ball @", b.pos())
+
+def tick():
+    g2d.clear_canvas()  # BG
+    g2d.draw_image("ball.png", b.pos())  # FG
+    b.move()
+
+def main():
+    global b
+    b = Ball()
+    g2d.init_canvas((ARENA_W, ARENA_H))
+    g2d.main_loop(tick)   
+
+if __name__ == "__main__":
+    #main()
+    console_run()

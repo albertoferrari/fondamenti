@@ -1,0 +1,28 @@
+
+def divisors(n: int) ->list:
+    ''' return divisori di n (1 e n) compresi) '''
+    d = [1]
+    for i in range(2,n+1):
+        if n % i == 0:
+            d.append(i)
+    return(d)
+
+def common(a: list, b: list) -> list:
+    ''' return lista contenente gli elementi comuni alle liste a e b '''
+    c = []
+    for e in a:
+        if e in b and not e in c:
+            c.append(e)
+    return c
+
+def main():
+    x = int(input('primo   valore: '))
+    y = int(input('secondo valore: '))
+    divx = divisors(x)
+    divy = divisors(y)
+    print(f'divisori di {x} {divx}')
+    print(f'divisori di {y} {divy}')
+    print(f'divisori comuni a {x} e {y} {common(divx,divy)}')
+    
+if __name__ == '__main__':
+    main()
