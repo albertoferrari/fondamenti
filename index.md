@@ -16,6 +16,7 @@
 - [Oggetti](http://albertoferrari.github.io/fondamenti/lezioni/FP04-oggetti.pdf)
 - [Sequenze](http://albertoferrari.github.io/fondamenti/lezioni/FP05-sequenze.pdf)
 - [Strutture dati](http://albertoferrari.github.io/fondamenti/lezioni/FP06-strutture_dati.pdf)
+- [File](http://albertoferrari.github.io/fondamenti/lezioni/FP07-file.pdf)
 
 ### Materiale
 - [esempi e codice](http://albertoferrari.github.io/fondamenti/materiale)
