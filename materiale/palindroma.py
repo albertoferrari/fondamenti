@@ -1,0 +1,20 @@
+def palindroma(s: str)->bool:
+    ''' True se s è palindroma '''
+    ls = len(s)    # lunghezza stringa
+    for i in range(ls//2):
+        # print(i,-(i+1),s[i],s[-(i+1)])  #test
+        if s[i] != s[-(i+1)]:
+            return False
+    return True
+
+def main():
+    k = input('stringa: ')
+    while k != '':
+        if palindroma(k):
+            print(f'{k} è palindroma')
+        else:
+            print(f'{k} non è palindroma')
+        k = input('stringa: ')
+            
+if __name__ == '__main__':
+    main()
