@@ -7,6 +7,8 @@
 - [induzione](http://albertoferrari.github.io/fondamenti/materiale/dimostrazione_per_induzione.pdf){:target="_blank"}
 - [to complemento a 2](http://albertoferrari.github.io/fondamenti/materiale/complemento_a_2_to.pdf){:target="_blank"}
 - [from complemento a 2](http://albertoferrari.github.io/fondamenti/materiale/complemento_a_2_from.pdf){:target="_blank"}
+- [1000 parole](http://albertoferrari.github.io/fondamenti/materiale/1000_parole_italiane_comuni.txt){:target="_blank"}
+- [28000 parole](http://albertoferrari.github.io/fondamenti/materiale/28000_parole_italiane.txt){:target="_blank"}
 
 ### Esercizi ed esercitazioni
 - [2025-10-03-PS-Draw](http://albertoferrari.github.io/fondamenti/materiale/2025-10-03-PS-Draw.py.txt){:target="_blank"}
@@ -29,3 +31,4 @@
 - [2025-11-13-PS-esercitazione-3-4](http://albertoferrari.github.io/fondamenti/materiale/3-4-verifica.py.txt){:target="_blank"}
 - [2025-11-13-PS-esercitazione-3-5](http://albertoferrari.github.io/fondamenti/materiale/3-5-cerchi.py.txt){:target="_blank"}
 - [2025-11-13-PS-esercitazione-3-6](http://albertoferrari.github.io/fondamenti/materiale/3-6-zero.py.txt){:target="_blank"}
+- [2025-11-20-PS-palindroma](http://albertoferrari.github.io/fondamenti/materiale/palindroma.py.txt){:target="_blank"}
