@@ -8,7 +8,7 @@
 - [to complemento a 2](http://albertoferrari.github.io/fondamenti/materiale/complemento_a_2_to.pdf){:target="_blank"}
 - [from complemento a 2](http://albertoferrari.github.io/fondamenti/materiale/complemento_a_2_from.pdf){:target="_blank"}
 - [1000 parole](http://albertoferrari.github.io/fondamenti/materiale/1000_parole_italiane_comuni.txt){:target="_blank"}
-- [28000 parole](http://albertoferrari.github.io/fondamenti/materiale/28000_parole_italiane.txt){:target="_blank"}
+- [280000 parole](http://albertoferrari.github.io/fondamenti/materiale/280000_parole_italiane.txt){:target="_blank"}
 
 ### Esercizi ed esercitazioni
 - [2025-10-03-PS-Draw](http://albertoferrari.github.io/fondamenti/materiale/2025-10-03-PS-Draw.py.txt){:target="_blank"}
