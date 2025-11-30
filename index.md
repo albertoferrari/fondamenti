@@ -8,7 +8,8 @@
 - [Media digitali](http://albertoferrari.github.io/fondamenti/lezioni/FIT05-media_digitali.pdf)
 - [Automi](http://albertoferrari.github.io/fondamenti/lezioni/FIT06-automi.pdf)
 - [Complessità computazionale](http://albertoferrari.github.io/fondamenti/lezioni/FIT07-complessita.pdf)
-  
+- [Architettura dell'elaboratore](http://albertoferrari.github.io/fondamenti/lezioni/FIT08-architettura.pdf)
+    
 ### Fondamenti di Programmazione
 - [Introduzione alla programmazione](http://albertoferrari.github.io/fondamenti/lezioni/FP01-Python.pdf)
 - [Iterazioni](http://albertoferrari.github.io/fondamenti/lezioni/FP02-iterazioni.pdf)
