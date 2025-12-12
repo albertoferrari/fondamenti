@@ -34,3 +34,5 @@
 - [2025-11-20-PS-palindroma](http://albertoferrari.github.io/fondamenti/materiale/palindroma.py.txt){:target="_blank"}
 - [2025-12-05-Animazioni-es01](http://albertoferrari.github.io/fondamenti/materiale/2025-12-05-Animazioni-es01.py.txt){:target="_blank"}
 - [2025-12-05-Animazioni-es02](http://albertoferrari.github.io/fondamenti/materiale/2025-12-05-Animazioni-es02.py.txt){:target="_blank"}
+- [matrici-csv](http://albertoferrari.github.io/fondamenti/materiale/matrici-csv.py.txt){:target="_blank"}
+- [2025-12-12-matrici-costo](http://albertoferrari.github.io/fondamenti/materiale/matrici-costo-caselle.py.txt){:target="_blank"}
