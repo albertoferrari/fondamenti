@@ -1,0 +1,51 @@
+'''
+Inserire in una matrice di 6 righe e 5 colonne valori casuali
+nell'intervallo [1,100].
+Il valore di una cella rappresenta il costo per il passaggio su questa.
+Selezionare in modo casuale una cella della matrice e calcolare il costo
+minimo per raggiungere da questa la cella [0][0].
+Il percorso consiste in un unico attraverso di celle in verticale
+e un unico in orizzontale.
+Nel costo si consideri la cella di arrivo ma non quelle di partenza.
+Visualizzare infine la matrice, gli indici della cella di partenza
+e il costo minimo del percorso.
+'''
+from random import randint
+N_R = 6
+N_C = 5
+
+# inserimento valori nella matrice
+mat = []
+for r in range(N_R):
+    riga = []
+    for c in range(N_C):
+        riga.append(randint(1,5))
+    mat.append(riga)
+
+#visualizzazione matrice
+for r in range(N_R):
+    for c in range(N_C):
+        print(mat[r][c],end='\t')
+    print()
+
+#selezione 'casuale' cella (qui non casuale)
+rig = 2
+col = 3
+print(f'selezione riga {rig} colonna {col} valore {mat[rig][col]}')
+
+#percorso up-left
+ul = 0
+for r in range(rig):
+    ul+=mat[r][col]
+for c in range(col):
+    ul+=mat[0][c]
+print('percorso up-left',ul)
+
+#percorso left-up
+lu = 0
+for c in range(col):
+    lu+=mat[rig][c]
+for r in range(rig):
+    lu+=mat[r][0]
+print('percorso left-up',lu)
+

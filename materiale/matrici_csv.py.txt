@@ -1,0 +1,116 @@
+'''
+realizzare una matrice in cui ogni cella contiene
+il prodotto dell'indice di riga per l'indice di colonna
+
+0  0  0  0  0  
+0  1  2  3  4  
+0  2  4  6  8  
+0  3  6  9  12  
+'''
+RIGHE   = 4
+COLONNE = 5
+
+def visualizza(m:list):
+    ''' visualizza la matrice bidimensionale m '''
+    n_r = len(m)                     # numero di righe
+    n_c = len(m[0])                  # numero di colonne
+    for r in range(n_r):
+        for c in range(n_c):
+            print(m[r][c],end='  ')  # non va a capo
+        print()                      # a capo dopo una riga
+
+# primo metodo list comprehension
+mat = [[r*c for c in range(COLONNE)] for r in range(RIGHE)]
+print(mat)
+visualizza(mat)
+print('---------------------------')
+
+# secondo metodo generazione riga per riga
+mat = []                             # matrice inizialmente vuota
+for r in range(RIGHE):
+    riga = []                        # riga inizialmente vuota
+    for c in range(COLONNE):
+        v = r*c                      # valore da inserire
+        riga.append(v)               # inserimento nella riga
+    mat.append(riga)                 # insrimento della riga nella matrice
+visualizza(mat)
+print('---------------------------')
+
+# somma riga per riga
+for r in range(RIGHE):
+    somma = 0
+    for c in range(COLONNE):
+        somma+=mat[r][c]
+    print('riga',r,'somma',somma)
+    
+# somma colonna per colonna
+for c in range(COLONNE):
+    somma_c = 0
+    for r in range(RIGHE):
+        somma_c+=mat[r][c]
+    print('colonna',c,'somma',somma_c)
+   
+# scrittura su file csv
+import csv
+
+# primo metodo una singola operazione di scrittura per tutta la matrice
+with open("matrice1.csv", "w") as f:           # file aperto in scrittura (nome logico f)
+    writer = csv.writer(f)                     # csv.writer è una funzione che genera un oggetto
+    writer.writerows(mat)                      # scrive tutte le righe (metodo writerows)
+  
+# secondo metodo scrittura riga per riga
+with open("matrice2.csv", "w") as f:           # file aperto in scrittura (nome logico f)
+    writer = csv.writer(f)
+    for riga in mat:
+        writer.writerow(riga)                  # scrive una singola riga (metodo writerow)
+     
+# lettura di una matrice da file csv
+mat2 = []                                      # matrice vuota
+with open("matrice1.csv", "r") as f:
+    reader = csv.reader(f)
+    for riga in reader:
+        # gli elementi della matrice letta sono di tipo stringa 
+        riga = [int(x) for x in riga]          # conversione in interi
+        mat2.append(riga)
+print('matrice letta dal file matrice1.csv')
+visualizza(mat2)
+print(type(mat2[0][0]))
+
+# secondo metodo senza list comprehension
+mat3 = []                                      # matrice vuota
+with open("matrice1.csv", "r") as f:
+    reader = csv.reader(f)
+    for riga in reader:
+        r = []                                 # riga vuota
+        for e in riga:                         
+            v = int(e)                         # conversione in int
+            r.append(v)
+        mat3.append(r)
+visualizza(mat3)
+    
+print('matrice letta dal file matrice1.csv')
+visualizza(mat2)
+print(type(mat2[0][0]))
+visualizza(mat3)
+print(type(mat3[0][0]))
+
+# da 2d a 1d mat3 (bidimensionale) -> m (monodimensionale)
+m = [-1]*RIGHE*COLONNE        # inizializziazione
+for r in range(RIGHE):
+   for c in range(COLONNE):
+       im = r*COLONNE + c       # im indice monodimensonale
+       m[im] = mat3[r][c]
+print(m)
+
+# da 1d a 2d m (monodimensionale -> mat4 (bidimensionale)
+mat4 = [[-1 for c in range(COLONNE)] for r in range(RIGHE)]
+print(mat4)
+
+for i in range(RIGHE*COLONNE):
+    r = i // COLONNE
+    c = i % COLONNE
+    mat4[r][c] = m[i]
+visualizza(mat4)
+
+for r in range(RIGHE):
+    print(mat4[r])
